@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: ^4.6.6
+  shared_preferences: ^2.3.2
+  
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +20,17 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Arco
+      fonts:
+        - asset: assets/fonts/ARCO.otf
+    - family: Segoe
+      fonts:
+       - asset: assets/fonts/Segoe.ttf
+   
